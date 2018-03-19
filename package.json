@@ -1,9 +1,12 @@
 {
-  "name": "react-draggable-component",
+  "name": "@ryanhefner/react-draggable-component",
   "version": "4.4.0",
   "description": "A wrapper React component that adds draggable functionality to an element",
   "main": "index.js",
   "author": "Mike Fey",
+  "contributors": [
+    "Ryan Hefner <hi@ryanhefner.com> (https://www.ryanhefner.com)"
+  ],
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -18,6 +21,9 @@
   },
   "peerDependencies": {
     "react": ">=15"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.1",
@@ -64,8 +70,5 @@
     "url-loader": "^0.5.7",
     "webpack": "^1.12.12",
     "webpack-dev-server": "^1.14.1"
-  },
-  "dependencies": {
-    "prop-types": "^15.6.1"
   }
 }
